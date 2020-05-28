@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="kr">
+<title>My Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 1
+    }
+
+    a:link {
+        color: olivedrab;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    a:visited {
+        color: pink;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="#int">interests</a> <br>
+                <a href="#edu">education</a> <br>
+                <a href="#works">works</a> <br>
+                <a href="#con">contact</a> <br>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 페이지 상단 -->
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> Welcome to My World of Work & Life </h2>
+
+        <!-- 관심사 -->
+        <div class="bigbox" style="margin-top:0px;">
+            <h1 class="jumbo"><b>오지연 </b></h1>
+            <h1 class="xxxlarge colorname" id="interests"><b>interests</b></h1>
+            <hr style="width:40%; border:5px solid rgb(73, 99, 20); float: left; clear: both; "> <br>
+        </div>
+
+        <!-- 사진 -->
+        <div class="imgpadding">
+            <div class="half">
+                <img src="bread.jpg" style="width:80%" alt="빵">
+                <img src="100abchallenge.jpg" style="width:80%" alt="운동">
+            </div>
+
+            <div class="half">
+                <img src="lizzie.jpg" style="width:80%" alt="뮤지컬">
+                <img src="yeoleumson.jpg" style="width:80%" alt="음악">
+            </div>
+        </div>
+
+        <!-- 공부 -->
+        <div class="bigbox" id="edu" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>education</b></h1>
+            <hr style="width:40%; border:5px solid rgb(73, 99, 20); float: left; clear: both; "> <br>
+            <p>1학기를 잘 마치는 것이 목표입니다.</p>
+            <p>수강하고 있는 강의 중 어려움을 느끼는 것은 파이썬 수업입니다. 
+               강의를 들으며 더욱 열심히 배우고, 방학 중에도 복습을 할 것입니다.
+               또한 나머지 과목들도 최선을 다해 공부해 기말고사에서 좋은 점수를 얻으면 좋겠습니다.
+            </p>
+        </div>
+
+        <!-- 포트폴리오 -->
+        <div class="bigbox" id="works" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>works</b></h1>
+            <hr style="width:40%; border:5px solid rgb(73, 99, 20); float: left; clear: both; "> <br>
+            <p>요즘 #100AbChallenge 라는 영상을 보며 운동을 하고 있습니다.</p>
+            <p>몸을 움직이는 것을 정말 싫어해서 운동을 좋아하진 않지만 이 영상은 따라하기 쉬운 동작들이 많아서 어렵지 않게 할 수 있습니다. 내가 운동하고 있다는 생각이 들지 않기도 합니다.
+               이 영상은 하루에 한 동작씩 100번히며 30일동안 꾸준히 하는 것을 목표로 하고 있습니다. 무엇보다 매일 달라지는 동작을 하기 때문에 지루하지 않아서 좋습니다
+               매일매일 하루 한 개씩 영상을 클리어 하는 재미도 느끼고 있습니다.
+            </p>
+            <p><b>차근차근 하루에 한 개씩 꾸준히 실천하며 건강한 몸을 갖고싶습니다.</b></p>
+        </div>
+
+
+
+        <!-- 연락처 -->
+        <div class="bigbox" id="con" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>contact</b></h1>
+            <hr style="width:40%; border:5px solid rgb(73, 99, 20); float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-0000-0000</li>
+                <li><a href="mailto:20190689@sungshin.ac.kr">20190689@sungshin.ac.kr</a></li> <br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by 오지연 </p>
+
+                </footer>
+
+
+
+
+</body>
+
+</html>
